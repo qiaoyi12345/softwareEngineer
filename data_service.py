@@ -92,3 +92,4 @@ def top_page_data():
     oxygen_data = [{'fishery': i['fishery_name'], '溶氧量': i['dissolved_oxygen']} for i in oxygen_list]
     sqlManager.close()
     return {'num_data': num_data, 'table_data': table_data, 'temp_data': temp_data, 'ph_data': ph_data, 'oxygen_data': oxygen_data}
+C4 Modification in data_service.py
