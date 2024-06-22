@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #B2分支文件修改
+=======
+#B3分支文件修改
+>>>>>>> B3
 import datetime
 
 from flask import Flask as _Flask, flash, redirect
@@ -451,4 +455,5 @@ def data_home_category():
 if __name__ == '__main__':
     # 端口号设置
     app.run(host="127.0.0.1", port=2000)
-C4 Modification in app.py
+
+B3 Modification in app.py
