@@ -67,3 +67,5 @@ def get_search_params(where):
         if where['log'] and len(where['log']) > 0:
             sql = sql + " AND log like '%%" + where['log'] + "%%' "
     return sql
+
+B3 Modification in slog_service.py
